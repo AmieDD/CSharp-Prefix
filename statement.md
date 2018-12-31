@@ -17,7 +17,7 @@ namespace PrefixForm
         static void Main(string[] args)
         {
             int x = 3;
-            int y = x++;
+            int y = ++x;
             Console.WriteLine(x+" "+y);
         }
     }
