@@ -1,25 +1,29 @@
-# Welcome!
+# C# Prefix
 
-This C# template lets you get started quickly with a simple one-page playground.
+AmieDD www.amiedd.com
 
 ```C# runnable
-// { autofold
+
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-class Hello 
+namespace PrefixForm
 {
-    static void Main() 
+    class Program
     {
-// }
-
-Console.WriteLine("Hello World!");
-
-// { autofold
+        static void Main(string[] args)
+        {
+            int x = 3;
+            int y = x++;
+            Console.WriteLine(x+" "+y);
+        }
     }
 }
-// }
 ```
 
-# Advanced usage
+# Amie's In-Game Hint
 
-If you want a more complex example (external libraries, viewers...), use the [Advanced C# template](https://tech.io/select-repo/386)
+C# Prefix - Prefix increments the value then proceeds with the expression. 
